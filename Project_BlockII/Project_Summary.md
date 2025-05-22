@@ -10,13 +10,13 @@
 
 1. Definition of the model
    1) Model representation (Fig.1)
-      - $P$ : body weight (in excess of a basal reference value)
+      - $P$: body weight (in excess of a basal reference value)
         - increases with dietary intake $Q$  at a rate $aQ$
         - decreases due to energy dissipation at a rate that saturates at a maximum value $b$
-      - $Q$ : dietary intake
+      - $Q$: dietary intake
         - increase at a maximum rate $V_1$
         - decrease at a maximum rate $V_2R$.
-      - $R$ : cognitive restraint (the degree of resolution to lose weight, reduce the amount of dietary intake Q once weight P becomes too large)
+      - $R$: cognitive restraint (the degree of resolution to lose weight, reduce the amount of dietary intake Q once weight P becomes too large)
         - increase at a maximum rate $V_3P$ caused by an increase in $P$.
         - decreases at a maximum rate $V_4$ due to habituation. 
       - Note:
@@ -27,12 +27,12 @@
         - **Threshold functions** are built into the model equations  
           - for the dependence of R on P, and of Q on R, which reflect the fact that the decision to lose weight by reducing dietary intake is generally of a sudden, all-or-none nature. (**Dashed arrows** indicate the regulations exerted by P on R and by R on Q, respectively.)
           - Thus, 
-            - the degree of cognitive restraint R increases abruptly once weight P passes a threshold value
-            - dietary intake Q undergoes a sharp decrease once R exceeds a threshold level. 
+            - The degree of cognitive restraint R increases abruptly once weight P passes a threshold value
+            - Dietary intake Q decreases sharply once R exceeds a threshold level. 
             - Such thresholds, naturally associated with time delays, prove to be crucial for the occurrence of sustained oscillations.
-        - In an appropriate range of parameter values the PQR model gives rise to sustained oscillations of the limit cycle type corresponding to weight cycling.
+        - In an appropriate range of parameter values, the PQR model gives rise to sustained oscillations of the limit cycle type corresponding to weight cycling.
       - **Thoughts**
-        - why 1-Q/1-R???
+        - Why 1-Q/1-R???
           - Both $Q$ and $R$ are normalized to vary between 0 and 1.
           - eqs (1b) and (1c) indicate that both Q and R vary in a reciprocal manner between two reservoirs, the constant sum of which remains equal to unity.
    2) Evolution Equations
@@ -45,18 +45,18 @@
         $$
         - Equations (1a) - (1c)
           - $P$ and $Q$ are controlled and vary in the course of time. **(Why R not???)**
-          - a positive and a negative term measuring increases or decreases respectively.
+          - a positive and a negative term measuring increases or decreases, respectively.
         - Equation (1a)  for $P$ (above the reference value) 
-          - increase is linked to the excess $Q$
-            - with a proportionality constant a measuring metabolic efficiency $a$
+          - An increase is linked to the excess $Q$
+            - with a proportionality constant, a measuring metabolic efficiency $a$
           -  decreases with a metabolic energy dissipation rate
              - characterized by a **Michaelian function** ($M$) 
-               - the Michaelis-Menten type encountered in enzyme kinetics, where the reaction rate initially rises with the level of substrate and reaches a maximum value when the substrate level becomes large.
-             - reaches a maximum value, b, when excess $P$ is much larger than constant $K$
+               - The Michaelis-Menten type is encountered in enzyme kinetics, where the reaction rate initially rises with the level of substrate and reaches a maximum value when the substrate level becomes large.
+             - reaches a maximum value, b, when the excess $P$ is much larger than the constant $K$
                - $K$ measures the value of $P$ yielding half-maximum rate. 
              - Similar results are obtained when the sink for $P$ is of a linear form ($–bP$).          
            - parameters $a$ and $b$ have a metabolic meaning
-             - they measure how weight P increases with food intake Q 
+             - They measure how weight P increases with food intake Q 
              - or decreases autonomously due to energy dissipation.
        - Equation (1b) for $Q$
          - increase at a maximum rate $V_1$ multiplied by a $M$ function
