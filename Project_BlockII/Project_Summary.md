@@ -23,9 +23,10 @@
         - **Range** of parameter values:
           - Both $Q$ and $R$ are normalized to vary between 0 and 1.
           - $P$ and $Q$ are expressed as amounts in excess of a reference value.
-            - The healthy weight reached around the age of 21 corresponds to a certain value $P > 0$ that is specific to each individual. (Garn 1996; Meisler and St Jeor 1996) 
+            - The healthy weight reached around the age of 21 corresponds to a certain value $P > 0$ that is specific to each individual. (Garn 1996; Meisler and St Jeor 1996)
+            - One unit of excess weight P corresponds, typically, to 25 and 75 kg for cases of mild and severe overweight, respectively.
         - **Threshold functions** are built into the model equations  
-          - for the dependence of R on P, and of Q on R, which reflect the fact that the decision to lose weight by reducing dietary intake is generally of a sudden, all-or-none nature. (**Dashed arrows** indicate the regulations exerted by P on R and by R on Q, respectively.)
+          - for the dependence of R on P, and of Q on R, which reflects the fact that the decision to lose weight by reducing dietary intake is generally of a sudden, all-or-none nature. (**Dashed arrows** indicate the regulations exerted by P on R and by R on Q, respectively.)
           - Thus, 
             - The degree of cognitive restraint R increases abruptly once weight P passes a threshold value
             - Dietary intake Q decreases sharply once R exceeds a threshold level. 
