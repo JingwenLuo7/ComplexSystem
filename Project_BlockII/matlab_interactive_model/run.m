@@ -1,0 +1,2 @@
+sys = ThreeVarModel()
+bdGUI(sys)
